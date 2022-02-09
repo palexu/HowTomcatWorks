@@ -18,7 +18,7 @@ public class HttpConnector implements Runnable {
     ServerSocket serverSocket = null;
     int port = 8080;
     try {
-      serverSocket =  new ServerSocket(port, 1, InetAddress.getByName("127.0.0.1"));
+      serverSocket =  new ServerSocket(port, 1);
     }
     catch (IOException e) {
       e.printStackTrace();
