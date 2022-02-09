@@ -473,6 +473,7 @@ public class HttpResponse implements HttpServletResponse {
     OutputStreamWriter osr =
       new OutputStreamWriter(newStream, getCharacterEncoding());
     writer = new ResponseWriter(osr);
+    writer.print("HTTP/1.1 200 OK\n\n");
     return writer;
   }
 
