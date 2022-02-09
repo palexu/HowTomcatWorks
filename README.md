@@ -1,7 +1,6 @@
 # HowTomcatWorks
 深入剖析tomcat （How Tomcat Works）源码
 
+forked from https://github.com/liunim/how-tomcat-works
 
-本人微信，欢迎探讨：
-
-![image](https://user-images.githubusercontent.com/24973360/50372024-5f975d00-0601-11e9-8247-139e145b1123.png)
+在idea环境下，基于jdk1.8进行编译，修复部分实验代码在现代浏览器下无法正常展示的问题。
